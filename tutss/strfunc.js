@@ -38,3 +38,61 @@ let b="aaa bbb ccc"
 // console.log(a.replace("this","hello"))
 // hello is goku
 //==========================================
+
+
+//indexof()
+//aa method ma je str thi search karaviye aena first letter ni index sodhse
+//if not found value then it will throw -1
+// case sensitive. 
+// console.log(a.indexOf("goku"))
+
+//==================
+// lastIndexOf
+// akkhi string mathi je pan word last sodhse aeni index throw karse
+// 1 if the value is not found.
+// searches the string from the end to the beginning.
+// case sensitive
+
+// console.log(a.lastIndexOf("i"))
+
+//==========================
+//search()
+//same as indexof
+// index throw karse je pan first letter madse aeni 
+// console.log(a.search("i"))
+
+//=========================
+//toupper // tolower
+// console.log(a.toLowerCase())
+// console.log(a.toUpperCase())
+
+//=======================================
+//concat
+// banne string nu adddtion karse
+// console.log(a.concat(b)) 
+
+//================================
+// trim
+//deletes spces from begin and end of str
+// const j="    a   b   c    "
+// console.log(j.trim())
+
+//===============================
+//charat
+// Get the first character in a string:
+// console.log(a.charAt(5))
+//i
+
+//===================================
+//charcodeat
+// Get the Unicode of the first character in a string:
+// console.log(a.charCodeAt(0))
+// 116
+
+//==================================
+//split
+//returns array
+//deletes the char that we use to split 
+//akhi string mathi jetla pan letter madse badha j ne split karse
+// console.log(a.split("i"))
+// [ 'th', 's ', 's goku' ]
