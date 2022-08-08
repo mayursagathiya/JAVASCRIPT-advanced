@@ -24,7 +24,7 @@
 // -3
 //================================
 // + unary 
-// let a=+"3" //conole.log(+a) // +ctx.req.body.phone
+// let a=+"b" //conole.log(+a) // +ctx.req.body.phone
 // console.log(typeof a)
 //================================
 
@@ -82,17 +82,24 @@
 // *=	x *= y	x = x * y
 // /=	x /= y	x = x / y
 // %=	x %= y	x = x % y
-// <<=	x <<= y	x = x << y
-// >>=	x >>= y	x = x >> y
-// >>>=	x >>>= y	x = x >>> y
-// &=	x &= y	x = x & y
-// ^=	x ^= y	x = x ^ y
-// |=	x |= y	x = x | y
-// **=	x **= y	x = x ** y
+// <<=	x <<= y	x = x << y//bits
+// >>=	x >>= y	x = x >> y//bits
+// >>>=	x >>>= y	x = x >>> y//bits
+// &=	x &= y	x = x & y//bits
+// ^=	x ^= y	x = x ^ y//bits
+// |=	x |= y	x = x | y//bits
+// **=	x **= y	x = x ** y//bits
 
 
-// let  x = 6 
+
+// let  x = 10
 // let y = 3
+
+// console.log(x += y);//13
+// console.log(x);//13
+
+// console.log(x <<= y);//bits
+
 // const g=	x = x & y//x &= y
 // console.log(g)
 

@@ -1,4 +1,4 @@
-let a="this is goku"
+let a="01234567890"
 let b="aaa bbb ccc"
 
 //length
@@ -7,22 +7,22 @@ let b="aaa bbb ccc"
 
 //==========================================
 
-// slice(start, end)
-// console.log(a.slice(2,4))
-// is
+// slice(start, end) 
+// console.log(a.slice(2,7))
+// 23456
 // console.log(a.slice(2))
-// is is goku
+// 23456789
 
 //==========================================
 
 // substring(start, end) same as slice
-// console.log(a.substring(2,4))
-//is
+// console.log(a.substring(2,7))
+//23456
 
 //==========================================
 // substr(start, length)
-// console.log(a.substr(2))
-//is is goku
+// console.log(a.substr(2,7))
+//2345678
 //almst same as slice
 
 //==========================================
@@ -35,19 +35,18 @@ let b="aaa bbb ccc"
 // replace(old value, new value)
 
 
-// console.log(a.replace("this","hello"))
-// hello is goku
+// console.log(a.replace("4","69"))
+//01236956789
 //====
 // const regex=/\s/g
-// console.log(a.replace(regex,""))
+// console.log(a.replace(regex,"++++++"))
 //==========================================
 
 
 //indexof()
 //aa method ma je str thi search karaviye aena first letter ni index sodhse
-//if not found value then it will throw -1
-// case sensitive. 
-// console.log(a.indexOf("goku"))
+//if not found value then it will throw -1 
+// console.log(a.indexOf("5"))
 
 //==================
 // lastIndexOf
@@ -56,13 +55,14 @@ let b="aaa bbb ccc"
 // searches the string from the end to the beginning.
 // case sensitive
 
-// console.log(a.lastIndexOf("i"))
+// console.log(a.lastIndexOf("0"))
 
 //==========================
 //search()
 //same as indexof
 // index throw karse je pan first letter madse aeni 
-// console.log(a.search("i"))
+// console.log(a.search("3"))
+//3
 
 //=========================
 //toupper // tolower
@@ -77,13 +77,13 @@ let b="aaa bbb ccc"
 //================================
 // trim
 //deletes spces from begin and end of str
-// const j="    a   b   c    "
+// const j="    aaaaaa   b   c    "
 // console.log(j.trim())
 
 //===============================
 //charat
 // Get the first character in a string:
-// console.log(a.charAt(5))
+// console.log(j.charAt(8))
 //i
 
 //===================================
@@ -99,3 +99,4 @@ let b="aaa bbb ccc"
 //akhi string mathi jetla pan letter madse badha j ne split karse
 // console.log(a.split("i"))
 // [ 'th', 's ', 's goku' ]
+

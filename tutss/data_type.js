@@ -47,8 +47,8 @@
 // console.log(a)
 // He is called 'bb'
 
-// let y = 123e5; 
-// console.log(y)
+// let y = 123e3; 
+// console.log(typeof y,y)
 
 // let x = 5;
 // let y = 5;

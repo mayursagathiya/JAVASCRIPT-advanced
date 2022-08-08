@@ -5,11 +5,20 @@
 //kyarey new array create nai kare
 // /but aeni value kyak store karaiye to use kari sakiye
 //====================================
-const  a=[1,2,3,4]
-a.forEach((e) => {
-    const p=e+1;
-    console.log(p)
-});
+// const a = [1, 2, 3, 4]
+// a.forEach((e) => {
+//     const p =e+1
+//     console.log(typeof p,p)
+// });
+//==========================
+// const items = ['item1', 'item2', 'item3'];
+// const copyItems = [];
+
+// items.forEach((e) => {
+//   copyItems.push(e);
+// });
+// console.log(copyItems);
+
 //=======================================
 
 
