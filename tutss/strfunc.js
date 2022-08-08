@@ -37,6 +37,9 @@ let b="aaa bbb ccc"
 
 // console.log(a.replace("this","hello"))
 // hello is goku
+//====
+// const regex=/\s/g
+// console.log(a.replace(regex,""))
 //==========================================
 
 
