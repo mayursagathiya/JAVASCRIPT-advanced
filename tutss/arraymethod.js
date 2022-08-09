@@ -49,11 +49,15 @@ const arr = Array.from(a)
 // console.log(found);
 
 //===============
-// // filter 
-// //function banavu jroori chhe 
-// const words = ['spray', 'limit', 'elites', 'exuberant', 'destruction', 'present'];
+// // // filter 
+//array na elements ne edit nahi kari sakay.
+//kyak store kari ne j edit kari sakay. but map ma tyare ne tyare edit kari sakay.
 
-// const result = words.filter(e => e === "spray");
+// // //function banavu jroori chhe 
+// // const words = ['spray', 'limit', 'elites', 'exuberant', 'destruction', 'present'];
+// const words=[1,2,3,4,5,6,7]
+// const result = words.filter(e => e+"spray");
+// // const result = words.map(e => e +"spray");
 
 // console.log(result);
 
