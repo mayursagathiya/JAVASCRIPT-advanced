@@ -3,11 +3,9 @@
 // const source = { b: 4, c: 5 };
 
 // Object.assign(t, source);
-// // const a = {...t,...source} // spread opeartor same as object assign
+// const a = {...t,...source} // spread opeartor same as object assign
 
-// // log()
-// // console.log(a);
-// // { a: 1, b: 4, c: 5 }
+// console.log();
 
 //obj.create
 //object ne jyare change na karva devo hoy tyare
@@ -18,7 +16,7 @@
 // })
 // delete a.p
 
-// console.log(a.p);
+// console.log(a);
 
 //entries
 //aakho object array ma convert karvo hoy to
@@ -42,7 +40,7 @@
 // from entries
 //arry to object
 // const entries = [
-//     ['foo', 'bar'],
+//     ['foo'], ['bar'],
 //     ['baz', 42]
 // ]
 // const obj = Object.fromEntries(entries);
@@ -57,9 +55,11 @@
 // boolean 
 
 // const a={"q":2,"k":2}
-// const b={"q":2,"k":1}
+// const b={"q":2,"k":2}
 
-// const cmp =Object.is(a.q,b.k)
+
+
+// const cmp =Object.is(a.q,b.q)
 
 // console.log(cmp);
 
@@ -90,3 +90,5 @@
 
 // console.log(b);
 
+
+//instanceof

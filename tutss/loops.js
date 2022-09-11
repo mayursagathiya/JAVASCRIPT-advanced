@@ -17,6 +17,8 @@
 // items.forEach((e) => {
 //   copyItems.push(e);
 // });
+// items.map(e=>copyItems.push(e))
+
 // console.log(copyItems);
 
 //=======================================

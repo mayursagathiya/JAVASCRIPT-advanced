@@ -6,7 +6,7 @@ let b="aaa bbb ccc"
 // 12
 
 //==========================================
-
+//index jose
 // slice(start, end) 
 // console.log(a.slice(2,7))
 // 23456
@@ -39,7 +39,7 @@ let b="aaa bbb ccc"
 //01236956789
 //====
 // const regex=/\s/g
-// console.log(a.replace(regex,"++++++"))
+// console.log(b.replace(regex,"++++++"))
 //==========================================
 
 
@@ -55,14 +55,15 @@ let b="aaa bbb ccc"
 // searches the string from the end to the beginning.
 // case sensitive
 
-// console.log(a.lastIndexOf("0"))
+// console.log(a.lastIndexOf("1"))
 
 //==========================
-//search()
+//search()array par use nai thay
 //same as indexof
 // index throw karse je pan first letter madse aeni 
 // console.log(a.search("3"))
 //3
+
 
 //=========================
 //toupper // tolower
@@ -70,20 +71,22 @@ let b="aaa bbb ccc"
 // console.log(a.toUpperCase())
 
 //=======================================
-//concat
+//concat //number par use nai thay
 // banne string nu adddtion karse
 // console.log(a.concat(b)) 
+
 
 //================================
 // trim
 //deletes spces from begin and end of str
 // const j="    aaaaaa   b   c    "
-// console.log(j.trim())
 
+// console.log(j.trim())
+// console.log(j.replace(/\s/g,"")) // aakhi str mathi spc delete karvi hoy to
 //===============================
 //charat
 // Get the first character in a string:
-// console.log(j.charAt(8))
+// console.log(a.charAt(8))
 //i
 
 //===================================
@@ -99,4 +102,11 @@ let b="aaa bbb ccc"
 //akhi string mathi jetla pan letter madse badha j ne split karse
 // console.log(a.split("i"))
 // [ 'th', 's ', 's goku' ]
+
+//startsWith
+//true or false aapse jo string "value" thi start thati hase
+
+// //inclues
+// const inc = "drugrdugrdgrejamdgnkdrgndrgirdg"
+// console.log(inc.includes("ejamdgnkdrgn"));
 

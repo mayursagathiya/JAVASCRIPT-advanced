@@ -53,11 +53,12 @@ const arr = Array.from(a)
 //array na elements ne edit nahi kari sakay.
 //kyak store kari ne j edit kari sakay. but map ma tyare ne tyare edit kari sakay.
 
-// // //function banavu jroori chhe 
-// // const words = ['spray', 'limit', 'elites', 'exuberant', 'destruction', 'present'];
+// //function banavu jroori chhe 
+// const words = ['spray', 'limit', 'elites', 'exuberant', 'destruction', 'present'];
 // const words=[1,2,3,4,5,6,7]
-// const result = words.filter(e => e+"spray");
-// // const result = words.map(e => e +"spray");
+// const result = words.filter(e => e===e);
+// console.log(result);
+// const result = words.map(e => e+"spray");
 
 // console.log(result);
 
@@ -73,7 +74,7 @@ const arr = Array.from(a)
 
 // /===========================
 //sort 
-// const j=[1,3,112]
+// const j=["a","v","b"]
 // console.log(j.sort())
 
 //================
@@ -82,7 +83,7 @@ const arr = Array.from(a)
 //=============
 //join
 // const arrtostr = arr.join()
-// console.log(typeof arrtostr); //str
+// console.log( arrtostr); //str
 
 //======================
 // reduce //to-do
@@ -99,14 +100,12 @@ const arr = Array.from(a)
 // some thi atleast ek vkht condition satisfy thavi joiye
 
 // const j =[1,2,1,4,5,6,7]
-// const func = (e)=>e ===1
-// console.log(j.some(func)); 
+// console.log(j.some(e=>e===7))
 
 //every
 // badha j element thi satisfy thay to true 
-// const j =[1,1]
-// const func = (e)=>e ===1
-// console.log(j.every(func)); 
+const j =[1,1,"1"]
+console.log(j.every(e=>e===1)); 
 
 
 
